@@ -1,3 +1,5 @@
+package DynamicProgramming;
+
 /**
  * @author Kshitij VERMA (github.com/kv19971)
  * LEVENSHTEIN DISTANCE dyamic programming implementation to show the difference between two strings (https://en.wikipedia.org/wiki/Levenshtein_distance)
@@ -25,7 +27,7 @@ public class LevenshteinDistance {
             distance_mat[0][j] = j;
         }
         for (int i = 0; i < len_a; i++) {
-            for (int j = 0; i < len_b; j++) {
+            for (int j = 0; j < len_b; j++) {
                 int cost;
                 if (a.charAt(i) == b.charAt(j)) {
                     cost = 0;

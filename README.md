@@ -1,4 +1,6 @@
 # The Algorithms - Java
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/TheAlgorithms/100)
+
 
 NOTE: A [Development](https://github.com/TheAlgorithms/Java/tree/Development) branch is made for this repo where we are trying to migrate the existing project to a Java project structure. You can switch to [Development](https://github.com/TheAlgorithms/Java/tree/Development) branch for contributions. Please refer [this issue](https://github.com/TheAlgorithms/Java/issues/474) for more info.
 
@@ -108,6 +110,8 @@ __Properties__
 * Average case performance    O(n)
 * Worst case space complexity    O(1) iterative
 
+##### View the algorithm in [action][linear-tutorialspoint]
+
 ### Binary
 ![alt text][binary-image]
 
@@ -119,7 +123,7 @@ __Properties__
 * Average case performance    O(log n)
 * Worst case space complexity    O(1) 
 
-##### View the algorithm in [action][shell-toptal]
+##### View the algorithm in [action][binary-tutorialspoint]
 
 [bubble-toptal]: https://www.toptal.com/developers/sorting-algorithms/bubble-sort
 [bubble-wiki]: https://en.wikipedia.org/wiki/Bubble_sort
@@ -147,9 +151,11 @@ __Properties__
 
 [linear-wiki]: https://en.wikipedia.org/wiki/Linear_search
 [linear-image]: http://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif
+[linear-tutorialspoint]: https://www.tutorialspoint.com/data_structures_algorithms/linear_search_algorithm.htm
 
 [binary-wiki]: https://en.wikipedia.org/wiki/Binary_search_algorithm
 [binary-image]: https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_search_into_array.png
+[binary-tutorialspoint]: https://www.tutorialspoint.com/data_structures_algorithms/binary_search_algorithm.htm
 
 
 --------------------------------------------------------------------
@@ -173,7 +179,7 @@ Graphs|Heaps|Lists|Queues|
 [BFS](DataStructures/Graphs/BFS.java)|[Empty Heap Exception](DataStructures/Heaps/EmptyHeapException.java)|[Circle Linked List](DataStructures/Lists/CircleLinkedList.java)|[Generic Array List Queue](DataStructures/Queues/GenericArrayListQueue.java)|
 [DFS](DataStructures/Graphs/DFS.java)|[Heap](DataStructures/Heaps/Heap.java)|[Doubly Linked List](DataStructures/Lists/DoublyLinkedList.java)|[Queues](DataStructures/Queues/Queues.java)|
 [Graphs](DataStructures/Graphs/Graphs.java)|[Heap Element](DataStructures/Heaps/HeapElement.java)|[Singly Linked List](DataStructures/Lists/SinglyLinkedList.java)|
-[Kruskals Algorithm](DataStructures/Graphs/KruskalsAlgorithm.java)|[Max Heap](Data%Structures/Heaps/MaxHeap.java)|
+[Kruskals Algorithm](DataStructures/Graphs/KruskalsAlgorithm.java)|[Max Heap](DataStructures/Heaps/MaxHeap.java)|
 [CursorLinkedList](DataStructures/Lists/CursorLinkedList.java)|
 [Matrix Graphs](DataStructures/Graphs/MatrixGraphs.java)|[Min Heap](DataStructures/Heaps/MinHeap.java)|
 [PrimMST](DataStructures/Graphs/PrimMST.java)|
